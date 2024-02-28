@@ -1,0 +1,74 @@
+.user-management {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 230px;
+  margin-top: 30px;
+  margin-right: 50px;
+  /* background-color: azure; */
+}
+
+.user-management h3 {
+  margin-top: 0;
+}
+
+.user-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list li {
+  margin-bottom: 10px;
+}
+
+.user-list li button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.user-list li button:hover {
+  background-color: #c82333;
+}
+
+.add-user-form {
+  margin-top: 20px;
+}
+
+.add-user-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-user-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure input width includes padding */
+  margin-bottom: 10px;
+}
+
+.add-user-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.add-user-form button:hover {
+  background-color: #0056b3;
+}
+
+#usr-btn{
+   margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

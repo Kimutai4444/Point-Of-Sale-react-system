@@ -1,0 +1,30 @@
+.container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: 280px;
+    margin-top: 18px;
+    max-width: 70%;
+    justify-content: space-between;
+    background-color:rgb(208, 204, 204) ;
+} 
+.searchbtn{
+    width: 450%;
+    background-color:rgb(241, 237, 237) ;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgb(97, 3, 3);
+    text-align: center;
+}
+
+.headerIcons{
+    margin-left: 500px;
+    margin-right: 30px;
+    margin-top: 4px;
+    gap: 10px;
+}
+
+#icon{
+    height: 17px;
+}

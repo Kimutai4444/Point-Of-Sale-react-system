@@ -1,0 +1,55 @@
+.dashboard{
+  margin-left: 230px;
+  /* margin-top: 30px; */
+}
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cards{
+  display: flex;
+   align-items: center;
+  justify-content: space-between;
+}
+
+.inner-cards img{
+  height: 26px;
+}
+
+.inner-cards{
+   border:solid #fff;
+   width: 230px;
+   padding: 5px;
+}
+#c1{
+  background-color: #0b539f;
+}
+#c2{
+  background-color: orange;
+}
+#c3{
+  background-color: green;
+}
+#c4{
+  background-color: red;
+}
+h4{
+  color: white;
+  margin-left: 18px;
+}
+.charts{
+  display: flex;
+  margin-top: 30px;
+}
+.chart img{
+  height: 300px;
+}
+.charts{
+  align-items: center;
+  justify-content: space-between;
+}
