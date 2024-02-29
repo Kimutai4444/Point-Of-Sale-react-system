@@ -44,17 +44,19 @@ function Dashboard() {
           </div>
         </div>
 
-        <ResponsiveContainer width={"100%"} aspect={4/1}>
-<LineChart data={[{amt:100,name:"sfdfdf"},{amt:1000,name:"ewrewr"}]} >
-  <XAxis dataKey={"name"} />
-  <Line dataKey={"amt"}/>
-</LineChart>
-</ResponsiveContainer>
-
-
+        <ResponsiveContainer width={"100%"} aspect={4 / 1}>
+          <LineChart
+            data={[
+              { amt: 100, name: "sfdfdf" },
+              { amt: 1000, name: "ewrewr" },
+              { amt: 1000, name: "ewrewr" },
+            ]}
+          >
+            <XAxis dataKey={"name"} />
+            <Line dataKey={"amt"} />
+          </LineChart>
+        </ResponsiveContainer>
       </div>
-
-      
     </>
   );
 }
