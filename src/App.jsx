@@ -18,6 +18,7 @@ function App() {
       <div className="app">
         <Sidebar />
         <Routes>
+          <Route path="/" element={<Dashboard />} />
           <Route path="/Dashboard" element={<Dashboard />} />
           <Route path="/User-Management" element={<Usermanagement />} />
           <Route path="/Products-Catalog" element={<Products />} />
