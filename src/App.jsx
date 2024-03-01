@@ -9,6 +9,7 @@ import Products from "./ProductsCatalog";
 import Header from "./Header";
 import Inventorymanagement from "./Inventorymanagement";
 import Customermanagement from "./Customermanagement";
+import Salestransaction from "./Salestransaction";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,7 +18,6 @@ function App() {
     <>
       <Router>
         <div className="app">
-          
           <Routes>
             <Route path="/Login" element={<Authentication />} />
             <Route path="/" element={<Dashboard />} />
@@ -25,12 +25,16 @@ function App() {
             <Route path="/User-Management" element={<Usermanagement />} />
             <Route path="/Products-Catalog" element={<Products />} />
             <Route
-              path="Inventory-management"
+              path="/Inventory-management"
               element={<Inventorymanagement />}
             />
             <Route
-              path="Customer-management"
+              path="/Customer-management"
               element={<Customermanagement />}
+            />
+            <Route
+              path="/Sales-and-Transaction"
+              element={<Salestransaction />}
             />
           </Routes>
         </div>
