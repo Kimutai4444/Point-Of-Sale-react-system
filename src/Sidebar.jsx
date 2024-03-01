@@ -8,7 +8,7 @@ function Sidebar() {
       <ul>
         <li>
           <img src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/dashboard-icon.png" />
-          <Link to="/dashboard">Dashboard</Link>
+          <Link to="/">Dashboard</Link>
         </li>
         <li>
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8TyerSAG372J_XHNoZQwB8bQ5ngUNmfjUdQ&usqp=CAU" />

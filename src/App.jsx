@@ -15,17 +15,22 @@ function App() {
 
   return (
     <>
-      {/* <Authentication /> */}
       <Router>
         <div className="app">
           <Sidebar />
           <Routes>
+            <Route path="/Login" element={<Authentication />} />
+            <Route path="/" element={<Dashboard />} />
             <Route path="/Dashboard" element={<Dashboard />} />
             <Route path="/User-Management" element={<Usermanagement />} />
             <Route path="/Products-Catalog" element={<Products />} />
-            <Route path="Inventory-management" element={<Inventorymanagement />}
+            <Route
+              path="Inventory-management"
+              element={<Inventorymanagement />}
             />
-            <Route  path="Customer-management" element={<Customermanagement />}
+            <Route
+              path="Customer-management"
+              element={<Customermanagement />}
             />
           </Routes>
         </div>
