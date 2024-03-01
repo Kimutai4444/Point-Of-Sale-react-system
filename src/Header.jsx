@@ -6,7 +6,7 @@ import user from "./user.png";
 
 function Header() {
   return (
-    <div className="container">
+    <div className="header-container">
       <div className="header">
         <input type="text" placeholder="search ...." className="searchbtn" />
       </div>

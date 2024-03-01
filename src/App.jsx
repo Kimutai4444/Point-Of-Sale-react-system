@@ -17,7 +17,7 @@ function App() {
     <>
       <Router>
         <div className="app">
-          <Sidebar />
+          
           <Routes>
             <Route path="/Login" element={<Authentication />} />
             <Route path="/" element={<Dashboard />} />

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Customermanagement.css"
 import Header from "./Header";
+import Sidebar from "./Sidebar";
 
 function CustomerManagement() {
   const [customers, setCustomers] = useState([]);
@@ -22,6 +23,7 @@ function CustomerManagement() {
     return (
       <>
         <Header />
+        <Sidebar/>
         <div className="customer-container">
           <h2>CUSTOMER MANAGEMENT</h2>
           <div>

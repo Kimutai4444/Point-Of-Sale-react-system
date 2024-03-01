@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Inventorymanagement.css"
 import Header from "./Header";
+import Sidebar from "./Sidebar";
 
 function InventoryManagement() {
   const [inventory, setInventory] = useState([]);
@@ -15,6 +16,7 @@ function InventoryManagement() {
     return (
       <>
         <Header />
+        <Sidebar/>
         <div className="inventory-containery">
           <h2>INVENTORY MANAGEMENT</h2>
           <div>

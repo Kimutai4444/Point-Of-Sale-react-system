@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './ProductsCatalog.css'
 import Header from "./Header";
+import Sidebar from "./Sidebar";
 
 function ProductsCatalog() {
   const [products, setProducts] = useState([
@@ -41,6 +42,7 @@ function ProductsCatalog() {
   return (
     <>
       <Header />
+      <Sidebar/>
       <div className="products-catalog">
         <h3>PRODUCTS CATALOG</h3>
         <ul>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Usermanagement.css";
 import Header from "./Header";
+import Sidebar from "./Sidebar";
 
 function UserManagement() {
   const [users, setUsers] = useState([
@@ -50,6 +51,7 @@ function UserManagement() {
   return (
     <>
       <Header />
+      <Sidebar/>
       <div className="user-management">
         <h3>USER MANAGEMENT</h3>
         <ul>

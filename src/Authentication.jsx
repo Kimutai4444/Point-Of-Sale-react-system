@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./Authentication.css";
+import { useNavigate } from "react-router-dom";
 
 function Authentication() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     const isAuthenticated = localStorage.getItem("isLoggedIn") === "true";
@@ -16,6 +19,8 @@ function Authentication() {
     if (username === "admin" && password === "password") {
       localStorage.setItem("isLoggedIn", "true");
       setIsLoggedIn(true);
+      navigate("/");
+
     } else {
       setError("Invalid username or password");
     }

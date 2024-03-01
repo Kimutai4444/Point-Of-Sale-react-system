@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Dashboard.css";
 import UserManagement from "./Usermanagement";
 import Products from "./ProductsCatalog";
@@ -6,10 +6,20 @@ import Header from "./Header";
 
 import { Bar } from "react-chartjs-2";
 import { BarChart, Line, LineChart, ResponsiveContainer, XAxis } from "recharts";
+import Sidebar from "./Sidebar";
+import { useNavigate } from "react-router-dom";
 
 function Dashboard() {
+  const navigate = useNavigate();
+  useEffect(()=>{
+    const isLoggedIn = localStorage.getItem("isLoggedIn");
+    if(!isLoggedIn){
+      navigate("/Login");
+    }
+  },[]);
   return (
     <>
+    <Sidebar/>
       <Header />
       <div className="dashboard">
         <h2>DASHBOARD</h2>

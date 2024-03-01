@@ -1,22 +1,30 @@
 .container {
-  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f9f9f9;
+  width: 100%;
+  margin-left: 50%;
+  margin-top: 0%;
+  transform: translateX(-50%) translateY(50%);
 }
 
 .title {
   text-align: center;
+  font-weight: bolder;
 }
 
 .inputField {
   width: 100%;
   margin-bottom: 10px;
-  padding: 8px;
+  padding: 0px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  height: 30px;
 }
 
 .loginButton {
