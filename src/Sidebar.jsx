@@ -41,6 +41,7 @@ function Sidebar() {
         </li>
         <li>
           <button 
+            id="logoutbtn"
           onClick={()=>{
             window.localStorage.removeItem("isLoggedIn");
             navigate("/Login");

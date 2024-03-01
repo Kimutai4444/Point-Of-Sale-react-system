@@ -38,3 +38,11 @@ img{
   height: 20px;
   margin-left: 20px;
 }
+
+#logoutbtn{
+  margin-left: 5%;
+  padding: 4px;
+  background-color: red;
+  border-radius: 8px;
+  width: 90%;
+}
